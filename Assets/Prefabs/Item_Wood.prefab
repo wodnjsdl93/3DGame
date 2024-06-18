@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8027039399520471053}
   - component: {fileID: 4095052269359784163}
   - component: {fileID: 7697227783523781972}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Item_Wood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 8258560873710749586}
   - component: {fileID: 3790396380447724271}
   - component: {fileID: 7414385074868645928}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Log
   m_TagString: Untagged
   m_Icon: {fileID: 0}

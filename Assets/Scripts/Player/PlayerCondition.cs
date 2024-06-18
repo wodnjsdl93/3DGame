@@ -47,10 +47,21 @@ public class PlayerCondition : MonoBehaviour, IDamagable
     {
         Debug.Log("플레이어가 죽었다.");
     }
-
+    
     public void TakePhysicalDamage(int damageAmount)
     {
         health.Subtract(damageAmount);
         onTakeDamage?.Invoke();
+    }
+
+    public bool UseStamina(float amount)
+    {
+        if(stamina.curValue - amount < 0f)
+        {
+            return false;
+        }
+
+        stamina.Subtract(amount);
+        return true;
     }
 }
